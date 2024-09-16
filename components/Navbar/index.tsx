@@ -3,10 +3,56 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between">
+    <nav className="flex justify-between items-center p-5 lg:px-20 lg:py-10">
       <Link href="/">
         <Image src="/hilink-logo.svg" alt="logo" width={74} height={29} />
       </Link>
+      <ul className="hidden h-full gap-12 lg:flex">
+        <Link
+          href="/"
+          className="text-[16px] text-slate-500 justify-center cursor-pointer pb-1.5 transition-all hover:font-bold"
+        >
+          Home
+        </Link>
+        <Link
+          href="/"
+          className="text-[16px] text-slate-500 justify-center cursor-pointer pb-1.5 transition-all hover:font-bold"
+        >
+          How Hilink Work?
+        </Link>
+        <Link
+          href="/"
+          className="text-[16px] text-slate-500 justify-center cursor-pointer pb-1.5 transition-all hover:font-bold"
+        >
+          Services
+        </Link>
+        <Link
+          href="/"
+          className="text-[16px] text-slate-500 justify-center cursor-pointer pb-1.5 transition-all hover:font-bold"
+        >
+          Pricing
+        </Link>
+        <Link
+          href="/"
+          className="text-[16px] text-slate-500 justify-center cursor-pointer pb-1.5 transition-all hover:font-bold"
+        >
+          Contact Us
+        </Link>
+      </ul>
+      <Link
+        href="/login"
+        className="bg-black text-white font-bold px-6 py-3 rounded-full gap-3 lg:flex hidden"
+      >
+        <Image src="/user.svg" alt="user" width={20} height={29} />
+        Login
+      </Link>
+      <Image
+        src="menu.svg"
+        alt="menu"
+        width={32}
+        height={32}
+        className="inline-block cursor-pointer lg:hidden"
+      />
     </nav>
   );
 };

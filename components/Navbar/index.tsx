@@ -3,45 +3,45 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="max-w-7xl mx-auto flex justify-between items-center p-5 lg:px-20">
+    <nav className="max-w-[100rem] mx-auto flex justify-between items-center p-8 lg:px-20">
       <Link href="/">
-        <Image src="/hilink-logo.svg" alt="logo" width={74} height={29} />
+        <Image src="/hilink-logo.svg" alt="logo" width={100} height={29} />
       </Link>
       <ul className="hidden h-full gap-12 lg:flex">
         <Link
           href="/"
-          className="text-[16px] text-slate-500 justify-center cursor-pointer pb-1.5 transition-all hover:font-bold"
+          className="text-[16px] text-slate-700 justify-center cursor-pointer pb-1.5 transition-all hover:font-bold"
         >
           Home
         </Link>
         <Link
           href="/"
-          className="text-[16px] text-slate-500 justify-center cursor-pointer pb-1.5 transition-all hover:font-bold"
+          className="text-[16px] text-slate-700 justify-center cursor-pointer pb-1.5 transition-all hover:font-bold"
         >
           How Hilink Work?
         </Link>
         <Link
           href="/"
-          className="text-[16px] text-slate-500 justify-center cursor-pointer pb-1.5 transition-all hover:font-bold"
+          className="text-[16px] text-slate-700 justify-center cursor-pointer pb-1.5 transition-all hover:font-bold"
         >
           Services
         </Link>
         <Link
           href="/"
-          className="text-[16px] text-slate-500 justify-center cursor-pointer pb-1.5 transition-all hover:font-bold"
+          className="text-[16px] text-slate-700 justify-center cursor-pointer pb-1.5 transition-all hover:font-bold"
         >
           Pricing
         </Link>
         <Link
           href="/"
-          className="text-[16px] text-slate-500 justify-center cursor-pointer pb-1.5 transition-all hover:font-bold"
+          className="text-[16px] text-slate-700 justify-center cursor-pointer pb-1.5 transition-all hover:font-bold"
         >
           Contact Us
         </Link>
       </ul>
       <Link
         href="/login"
-        className="bg-black text-white font-bold px-6 py-3 rounded-full gap-3 lg:flex hidden"
+        className="bg-gray-800 hover:bg-black text-white font-bold px-6 py-3 rounded-full gap-3 lg:flex hidden"
       >
         <Image src="/user.svg" alt="user" width={20} height={29} />
         Login
@@ -49,7 +49,7 @@ const Navbar = () => {
       <Image
         src="menu.svg"
         alt="menu"
-        width={32}
+        width={40}
         height={32}
         className="inline-block cursor-pointer lg:hidden"
       />

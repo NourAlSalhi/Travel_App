@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center p-5 lg:px-20 lg:py-10">
+    <nav className="max-w-7xl mx-auto flex justify-between items-center p-5 lg:px-20">
       <Link href="/">
         <Image src="/hilink-logo.svg" alt="logo" width={74} height={29} />
       </Link>

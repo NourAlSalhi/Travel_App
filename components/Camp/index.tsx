@@ -4,7 +4,7 @@ const Camp = () => {
   return (
     <section className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
       <div className="w-full overflow-x-auto whitespace-nowrap scrollbar-hide inline-flex gap-5">
-        <div className="relative px-20 py-7 w-[1100px] h-[400px] flex-shrink-0">
+        <div className="relative p-7 lg:px-20 lg:py-7 w-[1100px] h-[400px] flex-shrink-0">
           <div className="z-10 absolute h-[350px] flex flex-col justify-between">
             <div className="flex items-center gap-3">
               <div className="bg-green-600 p-3 rounded-full">
@@ -80,8 +80,8 @@ const Camp = () => {
             className="rounded-r-3xl"
           />
         </div>
-        <div className="relative px-20 py-7 w-[1100px] h-[400px] flex-shrink-0">
-        <div className="z-10 absolute h-[350px] flex flex-col justify-between">
+        <div className="relative p-7 lg:px-20 lg:py-7 w-[1100px] h-[400px] flex-shrink-0">
+          <div className="z-10 absolute h-[350px] flex flex-col justify-between">
             <div className="flex items-center gap-3">
               <div className="bg-green-600 p-3 rounded-full">
                 <svg
@@ -155,6 +155,36 @@ const Camp = () => {
             objectFit="cover"
             className="rounded-r-3xl"
           />
+        </div>
+      </div>
+      <div className="bg-green-600 z-20 m-5 h-max xl:absolute xl:mt-[200px] xl:ml-[700px] xl:w-[500px] leading-tight px-8 pt-10 text-white rounded-2xl">
+        <div className="relative">
+          <div className="absolute top-0 right-0 z-10">
+            <h3 className="xl:text-4xl text-2xl">
+              <span className="font-bold">Feeling Lost</span> And Not Knowing
+              The Way?
+            </h3>
+            <p className="mt-8">
+              Starting from the anxiety of the climbers when visiting a new
+              climbing location, the possibility of getting lost is very large.
+              That's why we are here for those of you who want to start an
+              adventure
+            </p>
+          </div>
+          <svg
+            width="186"
+            height="219"
+            viewBox="0 0 186 219"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className="xl:ml-[350px] md:ml-[500px] ml-[240px] w-32"
+          >
+            <path
+              d="M147.047 219C158.084 219 167.173 215.089 174.314 207.268C182.105 199.446 186 191.299 186 182.826C186 174.353 171.393 113.411 142.178 0H129.518L149.969 139.808H147.047C136.66 139.808 127.246 143.719 118.806 151.54C111.016 159.362 107.12 168.487 107.12 178.915C107.12 189.995 111.016 199.446 118.806 207.268C126.597 215.089 136.01 219 147.047 219ZM39.9267 219C50.9633 219 60.0524 215.089 67.1937 207.268C74.9843 199.446 78.8796 191.299 78.8796 182.826C78.8796 174.353 64.2722 113.411 35.0576 0H22.3979L42.8482 139.808H39.9267C29.5393 139.808 20.1257 143.719 11.6859 151.54C3.89529 159.362 0 168.487 0 178.915C0 189.995 3.89529 199.446 11.6859 207.268C19.4764 215.089 28.8901 219 39.9267 219Z"
+              fill="white"
+              fill-opacity="0.1"
+            />
+          </svg>
         </div>
       </div>
     </section>

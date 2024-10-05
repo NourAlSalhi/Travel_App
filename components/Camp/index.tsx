@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Camp = () => {
   return (
-    <section className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
+    <section className="max-w-[100rem] mx-auto relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
       <div className="w-full overflow-x-auto whitespace-nowrap scrollbar-hide inline-flex gap-5">
         <div className="relative p-7 lg:px-20 lg:py-7 w-[1100px] h-[400px] flex-shrink-0">
           <div className="z-10 absolute h-[350px] flex flex-col justify-between">
